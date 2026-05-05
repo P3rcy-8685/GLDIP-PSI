@@ -1,0 +1,28 @@
+# Virtual environment directory
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Python cache and metadata files
+__pycache__/
+*.pyc
+*.pyo
+
+# ODL cache files
+# The Operator Discretization Library can create cache directories
+# which should not be committed.
+.odl-cache/
+
+# Data files (sinograms, reconstructions)
+# The noisy data and reconstructed images are outputs, not source code.
+# We should ignore them to keep the repository clean.
+noisy_sinogram.npy
+reconstructions/
+
+# Matplotlib-related files
+# If you save plots, you may want to ignore them.
+*.png
+*.jpg
+*.svg
